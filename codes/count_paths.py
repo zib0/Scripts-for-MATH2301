@@ -21,10 +21,14 @@ def count_paths(m, l, f, t):
 
 
 if __name__ == "__main__":
-    # Please edit your adjacency matrix here.
+    # Please edit your adjacency matrix and parameters here.
+    l = 2
+    f = 1
+    t = 3
     adj_mtx = np.array([[0, 1, 0, 0],
                         [0, 0, 1, 0],
                         [0, 0, 0, 1],
                         [0, 0, 1, 0]])
 
-    print(count_paths(adj_mtx, 2, 1, 3))
+    # Print the result
+    print("The number of paths of length % 1d, from % 1d to % 1d is % 1d" %(l, f, t, count_paths(adj_mtx, l, f, t)))
