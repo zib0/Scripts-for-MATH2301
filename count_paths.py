@@ -1,5 +1,10 @@
-import numpy as np
+'''
+Author: Zibo Wang
+License: BY-NC-SA-4.0
+This file is for counting number of paths of length l from f to t.
+'''
 
+import numpy as np
 
 '''
 @param m: the input adjacency matrix that you are using
