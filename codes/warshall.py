@@ -31,4 +31,5 @@ if __name__ == "__main__":
                         [0, 0, 0, 1],
                         [0, 0, 1, 0]])
 
-    print("The transitive closure is: \n", warshall(adj_mtx))
+    print("The transitive closure is:")
+    print(np.array_str(warshall(adj_mtx)))
