@@ -22,9 +22,9 @@ def count_paths(m, l, f, t):
 
 if __name__ == "__main__":
     # Please edit your adjacency matrix here.
-    adj_mtx = ([0, 1, 0, 0],
-               [0, 0, 1, 0],
-               [0, 0, 0, 1],
-               [0, 0, 1, 0])
+    adj_mtx = np.array([[0, 1, 0, 0],
+                        [0, 0, 1, 0],
+                        [0, 0, 0, 1],
+                        [0, 0, 1, 0]])
 
     print(count_paths(adj_mtx, 2, 1, 3))
